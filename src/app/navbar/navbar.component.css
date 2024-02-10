@@ -1,0 +1,26 @@
+.navbar-style{
+    background-color: #2C3E50;
+    color: white !important;
+    font-size: 18px !important;
+    padding: 30px!important;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 666;
+
+}
+
+.active{
+    background-color: #1ABC9C;
+    border-radius: 3px;
+
+}
+h1{
+    font-size: 32px;
+}
+a , h1{
+    font-weight: 700;
+
+}
+a{
+    font-size: 15px;
+}

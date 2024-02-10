@@ -1,0 +1,24 @@
+*{
+    list-style: none;
+
+}
+.footer{
+    color: white;
+    background-color: #2C3E50;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-weight: 700;
+}
+.circle-dico{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+.last-p{
+    background-color: #162028;
+    padding: 10px;
+
+    font-size: 14px;
+}
+

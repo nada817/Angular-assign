@@ -1,0 +1,20 @@
+body{
+    background-color: #1ABC9C;
+}
+.about{
+    color: white;
+}
+.line-style{
+    width: 90px;
+    height: 5px;
+    background-color: white;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}

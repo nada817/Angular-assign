@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="py-5">
+    
+    <div class="portfolio py-5">
+        <div class="container my-5">
+            <h1 class="text-center mt-5">
+                PORTFOLIO COMPONENT
+            </h1>
+            <!----------- style under h1 ------------------- -->
+            <div class="aboutstyle d-flex justify-content-center mb-5 mt-2">
+                <div class="line-style me-4 mt-2">
+
+                </div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line-style ms-4 mt-2">
+
+                </div>
+            </div>
+
+            <div class="row">
+              <!-- <div  class="p-4 container">
+
+                <app-star [headingText]="'portfolio component'" [bgColor]="'#2c3e50'"></app-star>
+            
+                <div class="row g-5 pt-3">
+            
+                    <div *ngFor="let photo of photos"  class="col-md-6 col-lg-4">
+                        <div class="photo" (click)="openModel(photo.photoSrc)">
+                            <img [src]="photo.photoSrc" alt="" class="w-100 ">
+                            <div class="layer d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+            
+            
+                </div>
+            
+            </div>
+            
+            <div (click)="onClickOutsideModal($event)" *ngIf="imgUrl.length>0"  
+            class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
+                
+            <img [src]="imgUrl" alt="" class="">
+            
+            </div> -->
+
+
+
+
+
+
+
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/poert1.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+<!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+<i class="fa-solid fa-plus iconn"></i>
+                       </button>
+
+<!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                   <div class="modal-body modal-dialog modal-dialog-centered">
+                                      <div class=" modal-dialog modal-dialog-centered">
+                                          <img src="assets/port_img/poert1.png" alt="port_img" class="w-100 rounded-2">
+
+                                      </div>
+                                   </div>
+                               </div>
+                            </div>
+                      
+                               </div>
+                                   </div>
+                                          </div>
+          </div>
+
+
+
+
+
+          <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/port2.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+                          <i class="fa-solid fa-plus iconn"></i>
+                            </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- <div class="modal-dialog">
+                            <div class="modal-content"> -->
+                              <div class="modal-body modal-dialog modal-dialog-centered">
+                                  <img src="assets/port_img/port2.png" alt="port_img" class="rounded-2">
+                              <!-- </div>
+                            </div> -->
+                          </div>
+                        </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/port3.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+                          <i class="fa-solid fa-plus iconn"></i>
+                            </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-body modal-dialog modal-dialog-centered">
+                                  <img src="assets/port_img/port3.png" alt="port_img" class="rounded-2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/poert1.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+                          <i class="fa-solid fa-plus iconn"></i>
+                            </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-body modal-dialog modal-dialog-centered">
+                                  <img src="assets/port_img/poert1.png" alt="port_img" class="w-100 rounded-2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/port2.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+                          <i class="fa-solid fa-plus iconn"></i>
+                            </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-body modal-dialog modal-dialog-centered">
+                                  <img src="assets/port_img/port2.png" alt="port_img" class="rounded-2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 port-img g-4">
+              <img src="assets/port_img/port3.png" alt="port_img" class="w-100 rounded-2">
+              <div class="layer rounded-2">
+                  <div class="icon d-flex justify-content-center ">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal "  class="btn d-flex justify-content-center align-content-center" id="btn" >
+                          <i class="fa-solid fa-plus iconn"></i>
+                            </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-body modal-dialog modal-dialog-centered">
+                                  <img src="assets/port_img/port3.png" alt="port_img" class="rounded-2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+              </div>
+          </div>
+
+
+
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

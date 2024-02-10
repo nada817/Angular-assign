@@ -1,0 +1,39 @@
+.line-style{
+    width: 90px;
+    height: 5px;
+    background-color: #2C3E50;
+}
+.portfolio h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.layer {
+        width: 96%;
+        height: 100%;
+        background-color: #1cb999d7;
+        opacity: 0;
+        z-index: 3;
+        position: absolute;
+        top: 0%;
+        left: 2%;
+}
+.port-img{
+    position: relative;
+
+}
+.port-img:hover .layer{
+position: absolute;
+top: 0;
+left: 2%;
+opacity: 1;
+transition: all 1s;
+}
+.iconn{
+color: white;
+font-size: 100px;
+font-weight: 700;
+margin-top: 70px;
+padding-top: 15px;
+}
